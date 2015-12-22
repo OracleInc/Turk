@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>Turkrow</title>
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="css/main.css">
+</head>
+<style type="text/css">
+body{
+    background-color: #0071bc;
+
+}
+</style>
+
+<body class="login-page">
+    <!--Page Container Start Here-->
+    <section class="login-container boxed-login">
+        <div class="container">
+            <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4">
+                <div class="login-form-container">
+                    <form action="data_view.html" method="post" class="j-forms" id="forms-login" novalidate>
+                        <div class="login-form-header">
+                            <div class="logo">
+                             <center><a href="index.html" title="Turkrow Login"><img src="images/turkrow_II.png" alt="logo" width="155px"></a></center> 
+                         </div>
+                     </div>
+                     <div class="login-form-content">
+                        <!-- start login -->
+                        <div class="unit">
+                            <div class="input login-input">
+                                <label class="icon-left" for="login">
+                                </label>
+                                <input class="form-control login-frm-input"  type="text" id="login" name="login" placeholder="Username / Email">
+                            </div>
+                        </div>
+                        <div class="unit">
+                            <div class="input login-input">
+                                <label class="icon-left" for="password">
+                                    <i class="zmdi zmdi-key"></i>
+                                </label>
+                                <input class="form-control login-frm-input"  type="password" id="password" name="password" placeholder="Password">
+                                <span class="hint">
+                                 <a href="login-boxed.html#" class="link">Forgot password?</a>
+                             </span>
+                         </div>
+                     </div>
+                     <!-- end password -->
+
+                    <!-- start keep logged -->
+                     <div class="unit">
+                        <label class="checkbox">
+                            <input type="checkbox" name="logged" value="true" checked="">
+                            <i>Keep me logged in</i>
+                        </label>
+                    </div>
+                    <!-- end keep logged -->
+
+                    <div class="login-form-footer">
+                        <button type="submit" class="btn-block btn btn-primary">Sign in</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer End Here -->
+</section>
+</body>
+</html>
